@@ -14,6 +14,6 @@ qr.add_data(data)
 
 qr.make(fit=True)
 
-img = qr.make_image(fill_color: 'red', back_color: 'white')
+img = qr.make_image(fill_color= 'red', back_color= 'white')
 
 img.save("C:/Users/DELL/Desktop/Projects/Python/Python projects/QRcode/TestFolder/myQRcode.png")
